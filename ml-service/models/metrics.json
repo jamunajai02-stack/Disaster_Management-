@@ -1,0 +1,51 @@
+{
+  "accuracy": 0.8417,
+  "precision": 0.8414,
+  "recall": 0.8417,
+  "f1": 0.8398,
+  "confusionMatrix": {
+    "labels": [
+      "LOW",
+      "MEDIUM",
+      "HIGH"
+    ],
+    "matrix": [
+      [
+        13,
+        4,
+        0
+      ],
+      [
+        3,
+        66,
+        4
+      ],
+      [
+        0,
+        8,
+        22
+      ]
+    ]
+  },
+  "perClass": {
+    "LOW": {
+      "precision": 0.8125,
+      "recall": 0.7647,
+      "f1": 0.7879,
+      "support": 17
+    },
+    "MEDIUM": {
+      "precision": 0.8462,
+      "recall": 0.9041,
+      "f1": 0.8742,
+      "support": 73
+    },
+    "HIGH": {
+      "precision": 0.8462,
+      "recall": 0.7333,
+      "f1": 0.7857,
+      "support": 30
+    }
+  },
+  "testSamples": 120
+}
