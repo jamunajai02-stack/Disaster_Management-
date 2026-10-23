@@ -1,0 +1,47 @@
+# Dependencies
+node_modules/
+
+# Environment and secrets
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Build output
+dist/
+build/
+coverage/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Uploads and local storage
+uploads/
+tmp/
+
+# ML artifacts (keep folder, ignore large generated files)
+ml-service/models/*.joblib
+ml-service/models/*.pkl
+!ml-service/models/.gitkeep
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Test / coverage
+.nyc_output/
